@@ -1,19 +1,28 @@
-# INTEGRACAO COM SQL
+# 📊 Integração com SQL
 
-aplicativo de controle de estoque feito em Python utilizando:
+Projeto focado em integração e manipulação de dados utilizando SQL.
 
-Tkinter na interface gráfica 
+## 📌 Sobre o projeto
 
-SQLite usando Pyodbc para a conexao com o banco de dados
+O meu objetivo nesse projeto foi praticar conceitos de banco de dados:
 
-Funcionalidades: Adicionar insumo - registra um novo produto no estoque com nome, quantidade, validade e lote
-                 Deletar insumo - remove um produto do estoque pelo nome e lote.
-                 Consumir insumo - atualiza a quantidade de um insumo, diminuindo de acordo com a quantidade consumida.
-                 Visualizar insumo - consulta os dados de um produto específico no banco e exibe suas informações de nome,quantidade,validade e lote.
+- Criação de tabelas
+- Inserção de dados
+- Consultas SQL
+- Manipulação e análise de dados
 
 
+## 🛠️ Tecnologias que usei
+- SQL
+- Banco de Dados Relacional
 
-Estrutura: Faço a conexao com o banco Estoque.db.
-           A manipulacao da tabela é feita utilizando CRUD (CREATE,READ,UPDATE,DELETE)
-           A interface gráfica contém campos de entrada e botões para executar as ações no banco
-           Há uma caixa de texto na variavel caixa_texto que mostra mensagens de sucesso, erro ou informações dos insumos
+## 📂 Estrutura do projeto
+
+- `scripts/` → arquivos SQL com consultas e comandos
+- `database/` → estrutura do banco de dados
+
+## ▶️ Como executar
+
+1. Instale um banco de dados (MySQL, PostgreSQL ou SQL Server) 
+2. Abra o gerenciador (ex: DBeaver, MySQL Workbench) 
+3. Execute os scripts SQL presentes no projeto
