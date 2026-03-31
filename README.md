@@ -26,7 +26,3 @@ O meu objetivo nesse projeto foi praticar conceitos de banco de dados:
 1. Instale um banco de dados (MySQL, PostgreSQL ou SQL Server) 
 2. Abra o gerenciador (ex: DBeaver, MySQL Workbench) 
 3. Execute os scripts SQL presentes no projeto
-
-
-## Teste Conflito de branches 1
-
